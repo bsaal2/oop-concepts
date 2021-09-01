@@ -14,13 +14,13 @@ The capability of a class to derive properties and characteristics from another 
 Consider a group of vehicles. You need to create classes for Bus, Car and Truck. The methods fuelAmount(), capacity(), applyBrakes() will be same for all of the three classes. If we create these classes avoiding inheritance then we have to write all of these functions in each of the three classes
 `
 
-![inheritance](../images/inheritance-1.png)
+![inheritance](./images/inheritance-1.png)
 
 `
 If we use inheritance then same properties and method can be re-used among the different relative classes. Thus removing the duplication.
 `
 
-![inheritance](../images/inheritance-2.png)
+![inheritance](./images/inheritance-2.png)
 
 ## Mode Of Inheritance
 
@@ -49,7 +49,7 @@ Note: The private member in the Base Class cannot be directly accessed by the Su
 
 ## Summary Of Three Modes Of Inheritance
 
-![Inheritance](../images/inheritance-3.png)
+![Inheritance](./images/inheritance-3.png)
 
 
 # Types Of Inheritance
@@ -61,7 +61,7 @@ Note: The private member in the Base Class cannot be directly accessed by the Su
  ie. One Sub Class is inherited from only one Base Class.
 `
 
-![Inheritance](../images/inheritance-4.png)
+![Inheritance](./images/inheritance-4.png)
 
 `
 Syntax:
@@ -76,7 +76,7 @@ class sub-class: access_mode base-class {
 In Multiple inheritance, a sub class inherits from multiple Base Class.
 `
 
-![Inheritance](../images/inheritance-5.png)
+![Inheritance](./images/inheritance-5.png)
 
 `
 Syntax:
@@ -90,7 +90,7 @@ class sub-class: access_mode base-class1, access-mode base-class2, ... {
 `
 In this type of inheritance, a derived class is created from another derived class.
 `
-![Inheritance](../images/inheritance-6.png)
+![Inheritance](./images/inheritance-6.png)
 
 
 ## Heirarchial Inheritance
@@ -99,7 +99,7 @@ In this type of inheritance, a derived class is created from another derived cla
 In this type of inheritance, more than one sub class is inherited from a single base class. i.e. more than one derived class is created from a single base class.
 `
 
-![Inheritance](../images/inheritance-7.png)
+![Inheritance](./images/inheritance-7.png)
 
 
 ## Hybrid (Virtual) Inheritance
@@ -108,7 +108,7 @@ In this type of inheritance, more than one sub class is inherited from a single 
  Hybrid Inheritance is implemented by combining more than one type of inheritance. For example: Combining Hierarchical inheritance and Multiple Inheritance. 
 `
 
-![Inheritance](../images/inheritance-8.png)
+![Inheritance](./images/inheritance-8.png)
 
 ## A Special Case Of Hybrid Inheritance : Multipath Inheritance:
 
