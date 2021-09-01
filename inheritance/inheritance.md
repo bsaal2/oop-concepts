@@ -16,3 +16,9 @@ Consider a group of vehicles. You need to create classes for Bus, Car and Truck.
 
 ![inheritance](../images/inheritance-1.png)
 
+`
+If we use inheritance then same properties and method can be re-used among the different relative classes. Thus removing the duplication.
+`
+
+![inheritance](../images/inheritance-2.png)
+
