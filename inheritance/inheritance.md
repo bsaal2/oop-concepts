@@ -4,7 +4,7 @@
 
 The capability of a class to derive properties and characteristics from another class is called Inheritance.
 
-> Sub or Dervied Class: The class that inherits properties from another class is called Sub class or Derived Class. 
+> Sub or Dervied Class: The class that inherits properties from another class is called Sub class or Derived Class or Child Class. Apart from the inherited properties and method, child class can have its own method and properties. 
 
 > Base or Super Class: The class whose properties are inherited by sub class is called Base Class or Super class. 
 
@@ -115,5 +115,13 @@ In this type of inheritance, more than one sub class is inherited from a single 
 `
 A derived class with two base classes and these two base classes have one common base class is called multipath inheritance. An ambiguity can arrise in this type of inheritance. 
 `
+
+# Some Tips
+
+> If the constructor is not defined in the Derived Class then by default the constructor of the Parent Class is executed
+
+> If the constructor is defined in the Derived Class then if we want to use this then we have to call the Parent class constructor using `super` keyword.
+
+> If the same method is defined in the Child as well as the Parent Class then in case of Child executing that method then the method in Child takes precedence.
 
 
