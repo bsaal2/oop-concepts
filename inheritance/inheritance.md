@@ -84,3 +84,36 @@ class sub-class: access_mode base-class1, access-mode base-class2, ... {
     // body of sub-class
 }
 `
+
+## Multi Level Inheritance
+
+`
+In this type of inheritance, a derived class is created from another derived class.
+`
+![Inheritance](../images/inheritance-6.png)
+
+
+## Heirarchial Inheritance
+
+`
+In this type of inheritance, more than one sub class is inherited from a single base class. i.e. more than one derived class is created from a single base class.
+`
+
+![Inheritance](../images/inheritance-7.png)
+
+
+## Hybrid (Virtual) Inheritance
+
+`
+ Hybrid Inheritance is implemented by combining more than one type of inheritance. For example: Combining Hierarchical inheritance and Multiple Inheritance. 
+`
+
+![Inheritance](../images/inheritance-8.png)
+
+## A Special Case Of Hybrid Inheritance : Multipath Inheritance:
+
+`
+A derived class with two base classes and these two base classes have one common base class is called multipath inheritance. An ambiguity can arrise in this type of inheritance. 
+`
+
+
