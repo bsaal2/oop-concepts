@@ -34,7 +34,13 @@ Class variable refers to the attributes that are simply variable of the class. T
 
 > Interfaces: A class can implement more than one interface
 
+> When an abstract class implements the interface then it is not compulsory to implement all the methods by it.
+
 
 ## Concrete Class
 
-A * Concrete class * is a class that has an implementation of all of its method. They can not have any unimplemented methods. It can extend/inherit the abstract class or any interfaces as long as it implement all their methods
+A * Concrete class * is a class that has an implementation of all of its method. They can not have any unimplemented methods. It can extend/inherit the abstract class or any interfaces as long as it implement all their methods.
+Example:
+
+![Concrete Class Example](./images/concrete-class.png)
+
