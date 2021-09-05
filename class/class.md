@@ -42,5 +42,9 @@ Class variable refers to the attributes that are simply variable of the class. T
 A * Concrete class * is a class that has an implementation of all of its method. They can not have any unimplemented methods. It can extend/inherit the abstract class or any interfaces as long as it implement all their methods.
 Example:
 
-![Concrete Class Example](./images/concrete-class.png)
+The code below illustrates a concrete class which extends an abstract class. The method product() in interface X is implemented by class Product but it does not implement method sum(), therefore it has to be abstract. Whereas class Main implements the unimplemented method sum(), therefore there are no unimplemented methods. Hence, it is a concrete class.
+
+![Concrete Class Example](./images/class-1.png)
+
+![Concrete Class Example](./images/class-2.png)
 
