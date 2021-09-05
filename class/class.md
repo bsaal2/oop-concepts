@@ -26,7 +26,15 @@ Class variable refers to the attributes that are simply variable of the class. T
 
 > Class are created using the keyword `class`.
 
+> Class name should be started with initial letter (capitalized by convention).
+
 > After declaring the class name, programmer must define the constructor method
 
 > Class contains the attributes and methods
 
+> Interfaces: A class can implement more than one interface
+
+
+## Concrete Class
+
+A * Concrete class * is a class that has an implementation of all of its method. They can not have any unimplemented methods. It can extend/inherit the abstract class or any interfaces as long as it implement all their methods
